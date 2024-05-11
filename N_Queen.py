@@ -18,7 +18,7 @@ total = int(input("\t\tYour given number should be greater than 3. The best rang
 print()
 while total < 4:
     print("\t\tInvalid number !")
-    total = int(input("\t\tQueens should be from 4-10\n\t\t\t\tInput again:\t"))
+    total = int(input("\t\tQueens should be greater than 3.\n\t\t\t\tInput again:\t"))
     print()
 t = total
 mylist = []
