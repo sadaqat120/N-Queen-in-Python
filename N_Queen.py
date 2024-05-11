@@ -14,7 +14,7 @@ else:
     worksheet.title = 'Sheet1'
 
 print("\t\t\tN-QUEEN SOLVER!")
-total = int(input("\t\tYour given number should be greater than 3. The best range is 4_10.\n\t\tHow many queens you want to place?\n\t\t\t\t\t\t"))
+total = int(input("\t\tYour given number should be greater than 3. The best range is 4_19.\n\t\tHow many queens you want to place?\n\t\t\t\t\t\t"))
 print()
 while total < 4:
     print("\t\tInvalid number !")
